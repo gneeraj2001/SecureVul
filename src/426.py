@@ -1,0 +1,6 @@
+import os
+def run_command(command_str):
+    # create command string by concatenating os. with user input and evaluate
+    eval("os." + command_str)
+
+# run_command("cd /home/pi/Desktop/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/python_projects/
