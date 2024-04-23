@@ -1,0 +1,20 @@
+import os
+def list_files_in_directory():
+    # use os module and eval function to list all files in current directory
+    # print(os.listdir())
+    # print(os.path.isfile(""test.txt""))
+    # print(os.path.isdir(""test""))
+    # print(os.path.exists(""test.txt""))
+    # print(os.path.exists(""test.txt""))
+    # print(os.path.exists(""test.txt""))
+    # print(os.path.exists(""test.txt""))
+    # print(os.path.exists(""test.txt""))
+    # print(os.path.exists(""test.txt""))
+    # print(os.path.exists(""test.txt""))
+    # print(os.path.exists(""test.txt""))
+    # print(os.path.exists(""test.txt""))
+    # print(os.path.exists(""test.txt""))
+    # print(os.path.exists(""test.txt""))
+    # print(os.path.exists(""test.txt""))
+    # print(os.path.exists(""test.txt""))
+    # print(os.path

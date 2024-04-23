@@ -11,11 +11,12 @@ for i, code in enumerate(code_chunks, start=1):
     code = re.sub(r'"$', '', code)  # remove trailing quote
 
     if re.search(r'#include|typedef|struct|extern', code):  # C keywords
-        ext = '.c'
+        ext = '.cpp'
     elif re.search(r'import|def|class|print', code):  # Python keywords
         ext = '.py'
     else:
-        ext = '.unk'  # unknown language, use .unk extension
+        print(f"Unsupported code chunk {i}: {code}")
+        continue
 
     # Create the 'src' directory if it doesn't exist
     if not os.path.exists('src'):
@@ -24,3 +25,5 @@ for i, code in enumerate(code_chunks, start=1):
     # Save the file in the 'src' directory
     with open(f'src/{i}{ext}', 'w') as output_file:
         output_file.write(code)
+
+print("Files generated successfully.")

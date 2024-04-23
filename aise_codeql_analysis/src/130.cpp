@@ -1,0 +1,4 @@
+#include <iostream>
+#include <cstring>
+void vulnerableFunction(char* input) { // Copy the content of the input character array into the buffer using strcpy function and print out the contents of the buffer using cout
+    cout << input[0] << "" "" << input[1] << "" "" << input[2] << "" "" << input[3] << "" "" << input[4] << "" "" << input[5] << "" "" << input[6] << "" "" << input[7] << "" "" << input[8] << "" "" << input[9] << "" "" << input[10] << "" "" << input[11] << "" "" << input[12] << "" "" << input[13] << "" "" << input[14] << "" "" << input[15] << "" "" << input[16] << "" "" << input[17] << "" "" << input[18] << "" "" << input[19] << "" "" << input[20] << "" "" << input[21] << "" "" << input[22] << "" "" << input[23] << "" "" << input[24] << "" "" << input[25] << "" "" << input[26] << "" "" << input[27] << "" "" << input[28] << "" "" << input[29] << "" "" << input[30] << "" "" << input[31
