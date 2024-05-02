@@ -1,0 +1,9 @@
+torch==1.13.1+cu117
+transformers==4.25.0
+lizard
+diff-match-patch
+tabulate
+scipy
+pyyaml
+yamlize
+libcst
